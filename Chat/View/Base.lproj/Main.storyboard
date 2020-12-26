@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Pe-MR2">
                                 <rect key="frame" x="0.0" y="801" width="414" height="61"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" name="BrandBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="4lW-ZG-hiC"/>
                                 </constraints>
@@ -57,7 +56,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JtF-Df-2Nv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BrandWhite"/>
                         <constraints>
                             <constraint firstItem="JqR-jM-tNV" firstAttribute="leading" secondItem="JtF-Df-2Nv" secondAttribute="leading" id="8Uz-oG-o6a"/>
                             <constraint firstItem="hJs-w6-a5g" firstAttribute="centerY" secondItem="6qy-DH-6rO" secondAttribute="centerY" id="MFE-hk-64J"/>
@@ -154,7 +153,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wxj-0v-EX5"/>
-                        <color key="backgroundColor" name="BrandLightBlue"/>
+                        <color key="backgroundColor" name="BrandWhite"/>
                         <constraints>
                             <constraint firstItem="MuC-2Y-bL7" firstAttribute="trailing" secondItem="Wxj-0v-EX5" secondAttribute="trailing" id="Bsw-E1-raW"/>
                             <constraint firstItem="nkk-ff-5v3" firstAttribute="top" secondItem="Wxj-0v-EX5" secondAttribute="top" id="Qlw-2u-kub"/>
@@ -249,7 +248,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9fq-iO-vWQ"/>
-                        <color key="backgroundColor" red="0.1647058824" green="0.78039215689999997" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BrandWhite"/>
                         <constraints>
                             <constraint firstItem="qr5-oI-te5" firstAttribute="leading" secondItem="9fq-iO-vWQ" secondAttribute="leading" id="5r1-mt-csr"/>
                             <constraint firstItem="qr5-oI-te5" firstAttribute="top" secondItem="9fq-iO-vWQ" secondAttribute="top" id="GE9-kx-5wE"/>
@@ -305,7 +304,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" name="BrandPurple"/>
+                                <color key="backgroundColor" name="BrandBlue"/>
                                 <constraints>
                                     <constraint firstItem="bHJ-I6-i3y" firstAttribute="top" secondItem="qdo-AB-xuQ" secondAttribute="top" constant="20" id="03i-6H-Gfb"/>
                                     <constraint firstAttribute="height" constant="60" id="F5S-WY-VVV"/>
@@ -321,7 +320,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iJI-Rl-SXI"/>
-                        <color key="backgroundColor" name="BrandPurple"/>
+                        <color key="backgroundColor" name="BrandBlue"/>
                         <constraints>
                             <constraint firstItem="YGA-Z2-VLR" firstAttribute="leading" secondItem="iJI-Rl-SXI" secondAttribute="leading" id="1RJ-1s-7BR"/>
                             <constraint firstItem="YGA-Z2-VLR" firstAttribute="trailing" secondItem="iJI-Rl-SXI" secondAttribute="trailing" id="GgV-XD-a7W"/>
@@ -356,11 +355,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zIX-h0-FTS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="BrandWhite"/>
                         <color key="barTintColor" name="BrandBlue"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="28"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="22"/>
+                            <color key="textColor" name="BrandWhite"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -380,10 +379,10 @@
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandBlue">
-            <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.22352941176470587" green="0.28235294117647058" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BrandLightBlue">
-            <color red="0.92199999094009399" green="0.98000001907348633" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.60784313725490191" green="0.64313725490196072" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BrandLightPurple">
             <color red="0.98000001907348633" green="0.9649999737739563" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -391,11 +390,8 @@
         <namedColor name="BrandPurple">
             <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <namedColor name="BrandWhite">
+            <color red="0.94509803921568625" green="0.96470588235294119" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
